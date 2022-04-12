@@ -1,0 +1,444 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nova+Mono&family=Raleway:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Areia movediça:wght@300 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Work+Sans:wght@100 & display=swap');
+
+:root{
+    --cor0:#ffff;
+    --cor1:#dee2e6;
+    --cor2:#ff85a1;
+    --cor3:#d00000;
+    --cor4:#9d0208;
+    --cor5:#808080;
+    --cor6:#000000;
+
+    --font-padrão: Arial, Helvetica, sans-serif;
+    --font-titulo: 'Lobster', 'cursive';
+    --font-texto: 'Quicksand', sans-serif;
+    --font-texto1: 'Work Sans', sans-serif;
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor1);
+}
+
+header{
+    
+    background-color: var(--cor1); 
+    border-radius: 3px;
+    
+    height: 120px;
+}
+
+header h1{
+    color: var(--cor3);
+    font: bold 3em var(--font-titulo);
+    text-align: center;
+    text-shadow: 0.7px 0.9px var(--cor6);
+    margin-top: -8px;
+    padding-top: 20px;
+}
+
+#header{
+    font: 2.6em var(--font-titulo);
+    
+}
+
+nav{  
+    background-color: var(--cor1);
+    border-radius: 3px;
+    box-shadow: 0px 0.7px var(--cor5);
+    margin: auto;
+    margin-top: 1px;
+    height: 70px;
+    text-align: center;     
+}
+
+nav > a{
+    background-color: var(--cor0);
+    border-radius: 3px;
+    color: var(--cor3);
+    font: normal 1em var(--font-texto);
+    text-decoration: none;
+    margin: auto;
+    margin-left: 20px;
+   
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: var(--cor0) ;
+    border-radius: 3px;
+    box-shadow: 0.3px 0.4px var(--cor6);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto; 
+    margin-top: -18px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+main h1{
+    color: var(--cor4);
+    font: bold 2.8em var(--font-titulo);
+    margin: 20px 0px 20px 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-shadow: .3px .4px var(--cor5);
+}
+
+main h2{
+    color: var(--cor3);
+    font: bold 1.9em var(--font-titulo);
+    text-align: justify;
+    text-shadow: .3px .3px var(--cor5);
+    margin-left: 20px;
+}
+
+main h3{
+    color: var(--cor4);
+    font: bold 1.6em var(--font-titulo);
+    text-shadow: .3px .3px var(--cor5);
+    margin-left: 40px;
+}
+
+p{
+    font: 1em var(--font-texto1); 
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 2em;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#aside1{
+    background-color: var(--cor5);
+    border-radius: 3.5px;
+    box-shadow: 0.6px 0.8px var(--cor6);
+    width: 290px;
+    height: 465px;
+    margin:auto;
+}
+
+#aside1 > img{
+    border-radius: 3px;
+    box-shadow: 0.3px 0.4px var(--cor6);
+    width: 100%;
+}
+    
+.rei{
+    color: var(--cor0);
+    font: small Helvetica;
+    text-align: center;
+}
+
+#aside2{
+    background-color: var(--cor5);
+    border-radius: 3.5px;
+    box-shadow: 0.6px 0.8px var(--cor6);
+    width: 280px;
+    height: 428px;
+    margin:auto;
+}
+
+#aside2 > img{
+    border-radius: 3px;
+    box-shadow: 0.3px 0.4px var(--cor6);
+    width: 100%;
+}
+
+#aside3{
+    background-color: var(--cor5);
+    border-radius: 3.5px;
+    box-shadow: 0.6px 0.8px var(--cor6);
+    width: 270px;
+    height: 310px;
+    margin: auto;
+}
+
+#aside3 > img{
+    border-radius: 3px;
+    box-shadow: 0.3px 0.4px var(--cor6);
+    width: 100%;
+}
+
+#aside4{
+    background-color: var(--cor5);
+    border-radius: 3.5px;
+    box-shadow: 0.6px 0.8px var(--cor6);
+    width: 255px;
+    height: 407px;
+    margin: auto;
+}
+
+#aside4 > img{
+    border-radius: 3px;
+    box-shadow: 0.3px 0.4px var(--cor6);
+    width: 100%;
+}
+
+#aside5{
+    background-color: var(--cor5);
+    border-radius: 3.5px;
+    box-shadow: 0.6px 0.8px var(--cor6);
+    width: 230px;
+    margin: auto;
+}
+
+#aside5> img{
+    border-radius: 3px;
+    box-shadow: 0.3px 0.4px var(--cor6);
+    width: 100%;
+}
+
+#aside6{
+    background-color: var(--cor5);
+    border-radius: 3.5px;
+    box-shadow: 0.6px 0.8px var(--cor6);
+    width: 200px;
+    height: 288px;
+    margin: auto;
+}
+
+#cardeal-sul{
+    background-color: var(--cor5);
+    border-radius: 4px;
+    box-shadow: 0.6px 0.8px var(--cor5);
+    width: 270px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#cardeal-nordeste{
+    background-color: var(--cor5);
+    border-radius: 4px;
+    box-shadow: 0.6px 0.8px var(--cor5);
+    width: 270px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#amarelo{
+    background-color: var(--cor5);
+    border-radius: 4px;
+    box-shadow: 0.6px 0.8px var(--cor5);
+    width: 266px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#casal-cardeal{
+    background-color: var(--cor5);
+    border-radius: 4px;
+    box-shadow: 0.6px 0.8px var(--cor5);
+    width: 270px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#cardinalis{
+    background-color: var(--cor5);
+    border-radius: 4px;
+    box-shadow: 0.6px 0.8px var(--cor5);
+    width: 270px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#galeria{
+    border-radius: 3px;
+    box-shadow: 0.4px 0.6px var(--cor5);
+   width: 90%;
+    margin: auto;
+}
+
+#galeria > img{  
+    display: inline-block;
+    width: 300px;
+    height: 260px;
+   padding: 2px;  
+}
+
+#aguia-1{
+    background-color: var(--cor5);
+    border-radius: 3.5px;
+    box-shadow: 0.5px 0.7px var(--cor5);
+    width: 310px;
+    margin: auto;
+}
+
+#aguia-1 > img{
+    border-radius: 3px;
+    width: 100%;
+}
+
+#aguia-2{
+    background-color: var(--cor5);
+    border-radius: 3px;
+    width: 310px;
+    margin: auto;
+}
+
+#aguia-2 > img{
+    border-radius: 3px;  
+    width: 100%;
+}
+
+#aguia-3{
+    background-color: var(--cor5);
+    border-radius: 3px;
+    width: 310px;
+    margin: auto;
+}
+
+#aguia-3 > img{
+    border-radius: 3px;  
+    width: 100%;
+}
+
+#aguia-4{
+    background-color: var(--cor5);
+    border-radius: 3px;
+    width: 340px;
+    margin: auto;
+}
+
+#aguia-4 > img{
+    border-radius: 3.5px;  
+    width: 100%;
+}
+
+#aguia-5{
+    background-color: var(--cor5);
+    border-radius: 3px;
+    width: 340px;
+    margin: auto;
+}
+
+#aguia-5 > img{
+    border-radius: 3.5px;  
+    width: 100%;
+}
+
+div.video{
+    background-color: var(--cor0);
+    border-radius: 3px;
+    box-shadow:  0.2px 0.4px var(--cor5);
+    margin: 0px 20px 30px 20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video > iframe{
+    border-radius: 3px;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    width: 95%;
+    height: 95%;
+}
+
+
+a{
+    background-color: var(--cor1);
+    color: var(--cor3);
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+ul{
+    background-color: var(--cor5);
+    border-radius: 3px;
+    box-shadow: .7px .9px var(--cor5);
+    color:var(--cor0);
+    font: normal 1em Helvetica;
+    columns: 1;
+    margin: auto;
+    width: 240px;
+    list-style-position: inside;
+    line-height: 2em;   
+}
+
+.lista {
+    text-align: center;
+}
+.cardeal-amarelo{
+    color: var(--cor0);
+    font: normal small Helvetica;
+    text-align: justify;
+    width: 300px;
+    margin: auto;
+}
+
+#cardeal-especie{
+    width: 300px;
+}
+
+#audio{
+    margin: auto;
+}
+
+#pica-pau{
+    background: var(--cor1) url(imagens/pica-pau-rei-325.jpg) center center no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.aside{
+    font: small var(--font-texto1);
+    margin-left: 17%;
+    position: relative;
+    bottom: -90%;
+}
+
+#aguia{
+    background: var(--cor1) url(imagens/aguia-americana.jpg) center center no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+#cardeal{
+    background: var(--cor1) url(imagens/cardeal-do-sul-1.webp) center center no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.footer p{
+    color: var(--cor4);
+    font: small Helvetica;
+    text-align: center;
+    padding: 8px;
+}
+
+
